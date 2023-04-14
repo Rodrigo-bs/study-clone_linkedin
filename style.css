@@ -460,6 +460,113 @@ svg {
     color: #908f8f;
 }
 
+.menu-filtros {
+    margin-top: 10px;
+}
+
+.menu-filtros ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-filtros a {
+    padding: 10px;
+
+    color: #6c6c6c;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    transition: .1s ease;
+    border-radius: 5px;
+}
+
+.menu-filtros a:hover {
+    background: rgba(0,0,0,.1);
+}
+
+.menu-filtros a span {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.menu-filtros #foto svg {
+    color: #378fe9;
+}
+
+.menu-filtros #video svg {
+    color: #5f9b41;
+}
+
+.menu-filtros #evento svg {
+    color: #c37d16;
+}
+
+.menu-filtros #artigo svg {
+    color: #e16745;
+}
+
+/* COLUNA 3 */
+
+.coluna3 {
+    padding: 18px 10px;
+    color: #333;
+
+    height: fit-content;
+}
+
+.coluna3 .head-noticias {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coluna3 .head-noticias h3 {
+    font-size: 1.5rem;
+}
+
+.coluna3 .head-noticias svg {
+    color: #333;
+}
+
+.menu-noticia li a {
+    position: relative;
+    display: block;
+    margin: 8px;
+    padding: 0 8px;
+    color: #333;
+}
+
+.menu-noticia li a::before {
+    position: absolute;
+    top: 5px;
+    left: -8px;
+
+    content: '';
+    display: block;
+    width: 3px;
+    height: 3px;
+
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+.menu-noticia li a span {
+    display: block;
+}
+
+.menu-noticia li a span:first-child {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.menu-noticia li a span:last-child {
+    margin-top: 5px;
+}
+
+
 /* Quebras */
 @media screen and (max-width: 1115px) {
     .container-principal{
